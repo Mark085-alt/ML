@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Project Dashboard</title>
+    <style>
+        body {
+            background: linear-gradient(135deg, #ece9e6, #ffffff);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+            padding: 50px;
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 40px;
+            font-size: 2.5rem;
+        }
+
+        button {
+            background-color: #007bff;
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 10px;
+            font-size: 1.1rem;
+            cursor: pointer;
+            margin: 15px;
+            transition: background-color 0.3s, transform 0.2s;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+            transform: scale(1.05);
+        }
+
+        button:active {
+            background-color: #004080;
+        }
+
+        .container {
+            background-color: #f7f7f7;
+            border-radius: 15px;
+            padding: 40px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🚀 Deep Learning Project</h1>
+
+        <button onclick="location.href='/run-face'">👤 Run Face Recognition</button>
+        <br>
+
+        <button onclick="location.href='/run-feature'">📊 Run Feature Exploration</button>
+        <br>
+
+        <button onclick="location.href='/run-imageR'">🖼️ Run Image Recognition</button>
+        <br>
+
+        <button onclick="location.href='/run-dc'">📄 Run Document Characterization</button>
+        <br>
+
+        <button onclick="location.href='/run-DG'">🖼️ Run Dialogue Generation</button>
+
+    </div>
+</body>
+</html>
